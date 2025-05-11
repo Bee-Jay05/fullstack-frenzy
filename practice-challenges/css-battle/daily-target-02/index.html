@@ -1,0 +1,56 @@
+<div class = 'left'>
+  <div class = 'box'></div>
+</div>
+<div class = 'right'>
+  <div class = 'box'></div>
+</div>
+<style>
+  body{
+    margin: 0;
+    display: flex;
+  }
+  .left {
+    width: 50%;
+    height: 100%;
+    background: #4C6B50;
+  }
+  .right{
+    width: 50%;
+    height: 100%;
+    background: #F7EC7D;
+  }
+  .left .box{
+    width: 140px;
+    height: 180px;
+    background: #F7EC7D;
+    margin-left: auto;
+    margin-top: 60px;
+    position: relative;
+  }
+  .left .box::before{
+    position: absolute;
+    content: '';
+    width: 80px;
+    height: 60px;
+    background: #4C6B50;
+    top: 60px;
+    right: 0px;
+  }
+  .right .box{
+    width: 140px;
+    height: 180px;
+    background: #4C6B50;
+    margin-right: auto;
+    margin-top: 60px;
+    position: relative;
+  }
+  .right .box::before{
+    position: absolute;
+    content: '';
+    width: 80px;
+    height: 60px;
+    background: #F7EC7D;
+    top: 60px;
+    left: 0px;
+  }
+</style>
