@@ -1,0 +1,164 @@
+.container{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #182D09;
+}
+.banner{
+    background: #354F52;
+    background: linear-gradient(90deg, rgba(53, 79, 82, 1) 0%, rgba(53, 79, 82, 1) 65%, rgba(239, 239, 239, 1) 65%, rgba(239, 239, 239, 1) 100%);
+}
+.banner .container{
+    height: 100vh;
+    position: relative;
+}
+.banner .container img{
+    position: absolute;
+    top: calc(100vh - 750px);
+    left: 50%;
+    height: 750px;
+}
+.banner .container .col-6 h1{
+    font-size: 80px;
+    font-weight: 500;
+    font-style: normal;
+    color: #fffff0;
+    margin-top: 180px;
+}
+.banner .container .col-6 h2{
+    color: #fffff0;
+    font-size: 24px;
+    font-weight: 300;
+    font-style: normal;
+}
+.banner .container .col-6 button{
+    background-color: #CAD2C5;
+    color: #182D09;
+    height: 48px;
+    padding: 0px 24px;
+    border: none;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 32px;
+    font-size: 16px;
+    transition: 0.3s all ease;
+    box-shadow: 0 2.5rem 2rem -2rem hsl(200 50% 20% / 40%);
+}
+.banner .container .col-6 button:hover{
+    background-color: #182D09;
+    color: #CAD2C5;
+}
+header{
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    width: 20%;
+}
+.fa-scale-balanced{
+    color: #fffff0;
+}
+.logo-name{
+    margin: 0px 8px;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFFFF0;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin: 0;
+}
+header ul li a{
+    text-decoration: none;
+    color: #FFFFF0;
+    font-weight: 400;
+    transition: 0.3s all ease;
+}
+header ul li a:hover{
+    color: #52796F;
+}
+header button{
+    background-color: #182D09;
+    border-radius: 50px;
+    color: #FFFFF0;
+    padding: 0px 16px;
+    height: 32px;
+    border: none;
+    font-weight: 400;
+    transition: 0.3s all ease;
+}
+header button:hover{
+    background-color: #52796F;
+}
+.pricing{
+    background-color: #efefef;
+    padding: 128px 0px;
+}
+.pricing-card{
+    background-color: #fff;
+    box-shadow: 0 2.5rem 2rem -2rem hsl(200 50% 20% / 40%);
+    border-radius: 12px;
+    color: #354F52;
+}
+.retainer-card{
+    background: #F1FDF6;
+    background: linear-gradient(135deg, rgba(241, 253, 246, 1) 0%, rgba(232, 249, 238, 1) 100%);
+}
+.pricing-card h2{
+    font-size: 40px;
+}
+.pricing-card h5{
+    font-size: 12px;
+}
+.pricing-card h6 span{
+    font-size: 24px;
+}
+.pricing-card h6{
+    font-size: 36px;
+}
+.pricing-card button{
+    background-color: #CAD2C5;
+    color: #182D09;
+    height: 48px;
+    padding: 0px 24px;
+    border: none;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 32px;
+    font-size: 16px;
+    transition: 0.5s all ease;
+    box-shadow: 0 2.5rem 2rem -2rem hsl(200 50% 20% / 40%);
+}
+.retainer-card button{
+    background-color: #CAD2C5;
+}
+.pricing-card button:hover{
+    background-color: #182D09;
+    color: #CAD2C5;
+    transform: translateY(-5px);
+}
+.quote{
+    background-color: #efefef;
+    padding: 48px 0px 96px 0px;
+}
+.quote h1{
+    font-size: 48px;
+    font-weight: 500;
+}
+.quote h3{
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 300;
+}
